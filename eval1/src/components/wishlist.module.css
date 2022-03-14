@@ -1,0 +1,18 @@
+.show {
+  display: block;
+}
+.none {
+  display: none;
+  color: red;
+}
+.showList {
+  display: none;
+}
+.showHeading {
+  display: block;
+}
+.wishlist {
+  display: block;
+  padding: 20px 40em 20px;
+  column-gap: 2em;
+}

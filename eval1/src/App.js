@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React from 'react';
+import { Vegetable } from './components/vegetable';
+import { Wishlist } from './components/wishlist';
 
 function App() {
+  const [show, setShow] = React.useState(true)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={() => setShow(!show)}>Wishlist</button>
+      <button onClick={() => setShow(!show)}>Vegetable</button>
+      <div>{show ? <Wishlist /> : <Vegetable />}</div>
+
     </div>
   );
 }
