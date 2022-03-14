@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+  }
+  .wrapper {
+    margin: auto;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border: 3px solid coral;
+    width: 60%;
+    margin-top: 10em;
+  }
+  .name {
+    color: cadetblue;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  .value {
+    color: coral;
+    font-size: 3em;
+  }
+  .button {
+    width: 30%;
+    margin: 5px;
+    margin-bottom: 10px;
+    height: 2.5em;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: cadetblue;
+    border: 2px solid white;
+  }
+  .button:hover {
+    background-color: white;
+    border: 2px solid cadetblue;
+  }
