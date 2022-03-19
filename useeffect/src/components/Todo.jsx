@@ -5,6 +5,9 @@ import styles from "./Todo.module.css"
 
 export const Todo = () => {
     const [todo, setTodo] = React.useState([])
+    const [loading, setLoading] = React.useState(true)
+    const [error, setError] = React.useState(false)
+    const [page, setPage] = React.useState(1)
     const handleAdd = (item) => {
         if (item) {
             let payload = {
@@ -31,14 +34,16 @@ export const Todo = () => {
     }
     React.useEffect(() => {
         getMethod()
-    }, [])
+    }, [page])
     const getMethod = () => {
-        fetch("http://localhost:3000/todo")
+        setLoading(true)
+        fetch(`http://localhost:3000/todo?_page=${page}&_limit=3`)
             .then((r) => r.json())
             .then((data) => {
                 setTodo(data)
             })
-            .catch((err) => console.log(err))
+            .catch((err) => setError(true))
+            .finally(() => setLoading(false))
     }
     const handleToggle = (id, item) => {
         var data = {
@@ -96,13 +101,23 @@ export const Todo = () => {
             setTodo(todo)
         }
     }
-    return (
-        <div>
-            <TodoInput todo={todo} settodo={setTodo} handleAdd={handleAdd} />
-            <div className={styles.parentDiv}>
-                {todo.map((item) => { return <TodoList item={item} key={item.id} handleToggle={handleToggle} handleDelete={handleDelete} updateItem={updateItem} /> })}
-            </div>
-        </div>
-    )
+
+    return loading ? (<h1>Loading...</h1>)
+        :
+        error ?
+            <h1>Error... Something Went Wrong</h1>
+            :
+            (
+                <div>
+                    <TodoInput todo={todo} settodo={setTodo} handleAdd={handleAdd} />
+                    <div className={styles.parentDiv}>
+                        {todo.map((item) => { return <TodoList item={item} key={item.id} handleToggle={handleToggle} handleDelete={handleDelete} updateItem={updateItem} /> })}
+                    </div>
+                    <div>
+                        <button onClick={() => (page > 1) ? setPage(page - 1) : setPage(page)}>PREVIOUS</button>
+                        <button onClick={() => setPage(page + 1)}>NEXT</button>
+                    </div>
+                </div>
+            )
 }
 
