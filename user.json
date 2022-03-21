@@ -1,0 +1,108 @@
+{
+  "data": [
+    {
+      "name": "Mansi",
+      "gender": "Female",
+      "department": "HR",
+      "role": "HEAD",
+      "salary": 50000,
+      "id": 1
+    },
+    {
+      "name": "John",
+      "gender": "Male",
+      "department": "Marketing",
+      "role": "Distributor",
+      "salary": 20000,
+      "id": 2
+    },
+    {
+      "name": "Priya",
+      "gender": "Female",
+      "department": "IT",
+      "role": "Head",
+      "salary": 100000,
+      "id": 3
+    },
+    {
+      "name": "Anjali",
+      "gender": "Female",
+      "department": "Finance",
+      "role": "Head",
+      "salary": 30000,
+      "id": 4
+    },
+    {
+      "name": "Ridhi",
+      "gender": "Female",
+      "department": "HR",
+      "role": "Head",
+      "salary": 30000,
+      "id": 5
+    },
+    {
+      "name": "Manoj",
+      "gender": "Male",
+      "department": "Marketing",
+      "role": "Head",
+      "salary": 50000,
+      "id": 6
+    },
+    {
+      "name": "Nishant",
+      "gender": "Male",
+      "department": "IT",
+      "role": "Head",
+      "salary": 10000,
+      "id": 7
+    },
+    {
+      "name": "Manju",
+      "gender": "Female",
+      "department": "Marketing",
+      "role": "Head",
+      "salary": 30000,
+      "id": 8
+    },
+    {
+      "name": "Preeti",
+      "gender": "Female",
+      "department": "Finance",
+      "role": "Head",
+      "salary": 50000,
+      "id": 9
+    },
+    {
+      "name": "Sahil",
+      "gender": "male",
+      "department": "IT",
+      "role": "Head",
+      "salary": 90000,
+      "id": 10
+    },
+    {
+      "name": "Anirudh",
+      "gender": "Male",
+      "department": "Finance",
+      "role": "Head",
+      "salary": 70000,
+      "id": 11
+    },
+    {
+      "name": "Sunil",
+      "gender": "Male",
+      "department": "IT",
+      "role": "Head",
+      "salary": 40000,
+      "id": 12
+    },
+    {
+      "name": "Milland",
+      "gender": "male",
+      "department": "Finance",
+      "role": "Head",
+      "salary": 10000,
+      "id": 13
+    }
+  ]
+}
