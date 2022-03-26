@@ -1,0 +1,22 @@
+{
+  "user_data": [
+    {
+      "name": "Mansi Garg",
+      "age": "20",
+      "address": "Baghpat",
+      "department": "IT",
+      "salary": 100000,
+      "maritalStatus": false,
+      "id": 1
+    },
+    {
+      "name": "Anjali",
+      "age": "21",
+      "address": "Yamuna Nagar",
+      "department": "HR",
+      "salary": 200000,
+      "maritalStatus": false,
+      "id": 2
+    }
+  ]
+}

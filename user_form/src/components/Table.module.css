@@ -1,0 +1,27 @@
+.table th,
+td,
+tr {
+  border: 2px solid black;
+  text-align: center;
+  font-size: larger;
+  padding: 5px;
+}
+.table td {
+  color: rgb(24, 128, 56);
+  font-weight: bold;
+}
+.table {
+  margin: auto;
+
+  /* width: 100%; */
+}
+.h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.div {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
