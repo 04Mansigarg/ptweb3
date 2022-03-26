@@ -14,12 +14,13 @@ color:white;
 &:hover{
     background-color:black;
     color:rgb(14,186,213);
+    transition:font-size 4s 2s;
 
 }
 @media all and (max-width:600px){
     font-size:10px;
     background-color:coral;
-    transition:font-size 4s 2s;
+   
 
     `;
 
