@@ -1,0 +1,67 @@
+.nav {
+  height: 4em;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+.link {
+  margin: 10px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  /* background-color: rgb(14, 186, 213); */
+  background-color: black;
+  border-radius: 5px;
+  border: 0px solid white;
+  color: white;
+  text-decoration: none;
+}
+link:hover {
+  background-color: white;
+  color: rgb(14, 186, 213);
+  transition: font-size 4s 2s;
+}
+.heading {
+  color: rgb(14, 186, 213);
+  font-size: 3em;
+  font-weight: 650;
+  text-align: center;
+}
+.form {
+  width: 30%;
+  margin: auto;
+  background-color: black;
+}
+.input {
+  width: 50%;
+  margin: 10px;
+  margin-left: 20%;
+  padding: 10px 10px 10px;
+}
+.button {
+  margin: 10px;
+  margin-left: 24%;
+  padding: 10px 10px 10px;
+  width: 200px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(14, 186, 213);
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+}
+.button:hover {
+  background-color: white;
+  color: rgb(14, 186, 213);
+  transition: font-size 4s 2s;
+}
+.div {
+  border: 2px solid black;
+  width: 30%;
+  margin: auto;
+  background-color: black;
+  color: white;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
