@@ -1,0 +1,124 @@
+.nav {
+    height: 4em;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .link {
+    margin: 10px;
+    padding: 10px 10px 10px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    /* background-color: rgb(14, 186, 213); */
+    background-color: black;
+    border-radius: 5px;
+    border: 0px solid white;
+    color: white;
+    text-decoration: none;
+  }
+  link:hover {
+    background-color: white;
+    color: rgb(14, 186, 213);
+    transition: font-size 4s 2s;
+  }
+  .heading {
+    color: teal;
+    font-size: 3em;
+    font-weight: 650;
+    text-align: center;
+  }
+  .form {
+    width: 30%;
+    margin: auto;
+    background-color: black;
+  }
+  .input {
+    width: 50%;
+    margin: 10px;
+    margin-left: 20%;
+    padding: 10px 10px 10px;
+  }
+  .button {
+    margin: 10px;
+    margin-left: 24%;
+    padding: 10px 10px 10px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: teal;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+  }
+  .button:hover {
+    background-color: white;
+    color: teal;
+    transition: font-size 4s 2s;
+  }
+  .div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+  }
+  .item_div {
+    border: 2px solid black;
+    margin: 2em 2em 2em 2em;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 1em;
+  }
+  .img {
+    width: 70%;
+    height: 60%;
+  }
+  .details {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(14, 186, 213);
+    text-decoration: none;
+    text-align: center;
+  }
+  .user_details_heading {
+    color: rgb(14, 186, 213);
+    font-size: 3em;
+    font-weight: 650;
+    text-align: center;
+  }
+  .user_details_div {
+    border: 2px solid black;
+    width: 40%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+  .table th,
+td,
+tr {
+  border: 2px solid black;
+  text-align: center;
+  font-size: larger;
+  padding: 5px;
+}
+.table td {
+  color: rgb(24, 128, 56);
+  font-weight: bold;
+}
+.table {
+  margin: auto;
+
+  /* width: 100%; */
+}
+.tableh1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.tablediv {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
