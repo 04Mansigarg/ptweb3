@@ -23,18 +23,25 @@ export const Login = () => {
         fetch("https://masai-api-mocker.herokuapp.com/auth/login", {
             method: "POST",
             body: JSON.stringify(formData),
-            headers: { "content-type": "application/json" }
+            headers: { "Content-Type": "application/json" }
         })
             .then((res) => res.json())
             .then((res) => {
-                login(res.token)
+                if (res.token) {
+                    login(res.token)
+                }
+                else {
+                    navigate("/register")
+                }
 
+            })
+            .then(() => {
+                navigate("/")
+            })
 
-            }
-            )
             .catch((err) => console.log(err))
 
-        navigate("/")
+
     }
     return (
         <div>

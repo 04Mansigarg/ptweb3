@@ -1,0 +1,124 @@
+{
+    "product":[
+        {
+            "id":1,
+            "company":"Apple",
+            "name":"Apple iPhone 13 (512GB)",
+            "image":"https://m.media-amazon.com/images/I/61l9ppRIiqL._SX522_.jpg",
+            "price":104600,
+            "color":"Pink",
+            "category":"Mobiles"
+
+        },
+        {
+            "id":2,
+            "company":"Apple",
+            "name":"Apple iPhone 13 Pro Max (128GB)",
+            "image":"https://m.media-amazon.com/images/I/61IJBsHm97L._SX679_.jpg",
+            "price":129200,
+            "color":"Graphite",
+            "category":"Mobiles"
+
+        },
+        {
+            "id":3,
+            "company":"Apple",
+            "name":"Apple iPhone 13 Pro (128GB)",
+            "image":"https://m.media-amazon.com/images/I/61jLiCovxVL._SL1500_.jpg",
+            "price":119000,
+            "color":"Sierra Blue",
+            "category":"Mobiles"
+
+        },
+        {
+            "id":4,
+            "company":"Apple",
+            "name":"Apple iPhone 13 Pro (512GB)",
+            "image":"https://m.media-amazon.com/images/I/61sDyXAepuL._SL1500_.jpg",
+            "price":149000,
+            "color":"Gold",
+            "category":"Mobiles"
+
+        },
+        {
+            "id":5,
+            "company":"Apple",
+            "name":"Apple iPhone 13 Mini (128GB)",
+            "image":"https://m.media-amazon.com/images/I/61l9ppRIiqL._SX522_.jpg",
+            "price":69900,
+            "color":"pink",
+            "category":"Mobiles"
+
+        },
+        {
+            "id":6,
+            "company":"Apple",
+            "name":"Apple iPhone 11 (64GB) - (Product)",
+            "image":"https://m.media-amazon.com/images/I/71hh7cpWadL._SL1500_.jpg",
+            "price":49900,
+            "color":"pink",
+            "category":"Mobiles"
+
+        },
+        {
+            "id":7,
+            "company":"Levis",
+            "name":"Levi's Women's Regular Fit T-Shirt)",
+            "image":"https://m.media-amazon.com/images/I/71UvDR+2qpL._UY879_.jpg",
+            "price":743,
+            "color":"Black",
+            "category":"Clothing"
+
+        },
+        {
+            "id":8,
+            "company":"Levis",
+            "name":"Girls Red Graphic T-shirts",
+            "image":"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/9/d/9d5cd27Levis-314234-W5J_1.jpg?rnd=20200526195200",
+            "price":1295,
+            "color":"White",
+            "category":"Clothing"
+
+        },
+        {
+            "id":9,
+            "company":"DD South Chaap Cafe",
+            "name":"Biryani",
+            "image":"https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Best-Mutton-Biryani-Recipe.jpg",
+            "price":450,
+            "color":"North Indian, South Indian, Chinese, Rolls",
+            "category":"Food"
+
+        },
+        {
+            "id":10,
+            "company":"New Udupi Restaurant",
+            "name":"Pav Bhaji Special",
+            "image":"https://b.zmtcdn.com/data/pictures/3/19270143/5c1dbbaa64a0f6fd14602bb37ad39c67_featured_v2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "price":250,
+            "color":"South Indian, Chinese",
+            "category":"Food"
+
+        },
+        {
+            "id":11,
+            "company":"FINEMOE",
+            "name":"FineMoe Standing Pencil Cases",
+            "image":"https://m.media-amazon.com/images/I/71N1BjdpIBL._SX679_.jpg",
+            "price":599,
+            "color":"pink",
+            "category":"Stationary"
+
+        },
+        {
+            "id":12,
+            "company":"THE STATIONER",
+            "name":"Spiral Bound Sticky Notes and Flags",
+            "image":"https://m.media-amazon.com/images/I/71uHbBFlKAL._SX679_.jpg",
+            "price":145,
+            "color":"Kraft Finish - Spiral Bound",
+            "category":"Stationary"
+
+        }
+    ]
+}

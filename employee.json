@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "name": "John",
+      "age": "21",
+      "address": "Bangalore",
+      "department": "IT",
+      "salary": 100000,
+      "gender": "Male",
+      "mobile": "8675432678",
+      "id": 1
+    },
+    {
+      "name": "Madhu",
+      "age": "20",
+      "address": "Pune",
+      "department": "Marketing",
+      "salary": 200000,
+      "gender": "Female",
+      "mobile": "12345678",
+      "id": 2
+    },
+    {
+      "name": "Mansi",
+      "age": "20",
+      "address": "UP",
+      "department": "IT",
+      "salary": 200000,
+      "gender": "Female",
+      "mobile": 124346748,
+      "id": 3
+    },
+    {
+      "name": "",
+      "age": "",
+      "address": "",
+      "department": "",
+      "salary": "",
+      "gender": "",
+      "mobile": "",
+      "id": 4
+    }
+  ]
+}
