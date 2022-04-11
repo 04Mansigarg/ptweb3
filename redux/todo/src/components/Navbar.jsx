@@ -7,7 +7,6 @@ export const Navbar = () => {
         <div className={styles.nav}>
             <Link className={styles.link} to="/">Home</Link>
             <Link className={styles.link} to="todo">Todo</Link>
-            <Link className={styles.link} to="login">Login</Link>
         </div>
     )
 }

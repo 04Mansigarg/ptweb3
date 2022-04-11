@@ -1,10 +1,11 @@
 import React from 'react'
-import { useDispatch } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import { add_todo } from '../redux_todo/Action'
 
 export const TodoInput = () => {
     const [task, setTask] = React.useState("")
     const dispatch = useDispatch()
+    const todo = useSelector((state => state.todo))
 
     const handleADD = () => {
         let payload = {
@@ -21,6 +22,7 @@ export const TodoInput = () => {
             .then((res) => res.json())
             .then((res) => {
                 console.log(res)
+                console.log(todo)
                 setTask("")
             })
     }
